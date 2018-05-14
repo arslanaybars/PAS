@@ -1,7 +1,8 @@
 **Reflection based Plugin Architecture Sample with using c#**
 
 We use plugins for extending our solution without re-compile and distribute it to customers.
-basically, we scan manually folder for .dlls, use reflection to find plugin classes and create instances.
+
+basically, we scan manually folder to find the plugin in the .dlls then with reflection help we are creating class instances.
 
 This is basic sample understand main logic of plugin architecture. For communication we should implement IPlugin interface to the plugins
 
